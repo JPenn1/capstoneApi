@@ -18,7 +18,8 @@
 	display: flex;
 	position: fixed(static);
 	width: 100%;
-	border: orange 1px solid;
+	margin-bottom: 10px;
+	
 	
 		
   }
@@ -33,6 +34,8 @@
 	margin-left: auto;
     margin-right: auto;
 	align-items: space-between;
+	border: 1px white solid;
+	 border-radius: 5px; 
 	 
 	
   }
