@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stock Search</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="page1">
+    
+       
+    
+    <div class ="container">
+
+        
+        
+		<form id="js-form">
+        <h3>Get Real-Time Stock Prices!</h3>
+        <br><br>
+            <label for="symbol-quote" id="titleSymbol">Enter a companies stock symbol for a price snapshot & link to more information.
+			</label><br><br>
+			
+			
+            <input type="text" name="symbol-quote" id="js-symbol-quote" placeholder="enter stock symbol here" required>
+            <input type="submit" value="Submit" id="submit"/><br><br>
+
+            <!--
+            <label for="historical-quote">Historical Stock Price Information</label>
+            <input type="text" name="search-area" id="js-search-area" required><br><br>
+            <input type="submit" value="Search CryptoCurrency!"/><br><br>
+
+            <!--<label for="max-results"> Number of results (max 10):</label>
+            <input type="number" name="max-results" id="js-max-results" min="1" max="10" value="10"><br><br>*/ -->
+
+            
+        </form>
+		
+        
+        <p class="js-error"></p>
+        <section class="js-results hidden">
+        <h2>Results:</h2><br>
+        <ul class="js-results-list">
+        </ul>
+        </section>
+    </div>
+	<div class="topnav" id="myTopnav">
+		<a href="https://www.marketwatch.com/tools/quotes/lookup.asp" target="_blank">Symbol Lookup</a>
+		<a href="http://join.robinhood.com/jonathp478" target="_blank">Start Trading</a>
+		<a href="mailto:jpenni3@outlook.com?subject=Bug Report">Report a Bug <i class="fa fa-bug"></i></a>
+		<a href="javascript:void(0);" class="icon" onclick="navigationBar()">
+		 </a>
+		</div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

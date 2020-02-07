@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+	color: white;
+	margin: 0 auto;
+	
+}
+
+#page1{
+    font-family: Arial, Helvetica, sans-serif;
+	border: 2px solid orange;
+	background-color: black;
+	
+ }
+
+.topnav {
+	overflow: hidden;
+	background-color: #000;
+	display: flex;
+	position: fixed(static);
+	width: 100%;
+	border: orange 1px solid;
+	
+		
+  }
+  
+
+  .topnav a {
+	color: #f2f2f2;
+	padding: 12px 5px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 600;
+	margin-left: auto;
+    margin-right: auto;
+	align-items: space-between;
+	 
+	
+  }
+  
+  .topnav a:hover {
+	background-color: #db9214;
+	color: black;
+  }
+  
+  .topnav a.active {
+	background-color: orange;
+	color: white;
+  }
+  
+  .topnav .icon {
+	display: none;
+  }
+
+
+
+.container{
+    width:99vw;
+	height: 92vh;
+    padding: 10px;
+	background-color: black;
+}
+
+
+
+
+#titleSymbol{
+	margin-bottom: 5px;
+	
+}
+#js-form h1{
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+#symbolFind{
+	margin-bottom: 10px;
+	
+}
+
+button{
+    text-decoration: none;
+    
+}
+
+button, input[type="text"]{
+    padding: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+a:hover{
+	cursor: pointer;
+}
+
+#submit{
+	border: 3px white solid;
+	line-height: 20px;
+	font-weight: 700;
+	color: black;
+}
+#js-symbol-quote{
+	color: black;
+}
+
+
+
+.js-error{
+    font-weight: bold;
+}
+
+.js-results-list{
+    font-weight: 600;
+}
+
+/*global classes*/	
+	
+
+.hidden{
+    display: none;
+}
+.red{
+    color: red;
+}
